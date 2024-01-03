@@ -10,7 +10,7 @@ By submitting a pull request, you agree that:
 ## How to Contribute
 1. Clone the repository
     ```shell
-    git clone https://github.com/PugsworthWellington/TankYouVeryMuch.git
+    git clone https://github.com/Pugsworth/TankYouVeryMuch.git
     ```
 2. Follow the [Fabric Wiki](https://fabricmc.net/wiki/tutorial:setup) to setup your development environment.
 3. Create a new branch for your changes. This is just good practice.
