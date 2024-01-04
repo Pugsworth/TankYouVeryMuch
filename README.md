@@ -15,7 +15,6 @@
 
 ## Description
 
----
 This mod is intended to do one thing very well: Provide stackable fluid tanks that can be placed in the world for more compact fluid storage.  
 It is built on the [Fabric][fabric] modding framework for [Minecraft][minecraft] Java Edition from 1.19.2 onwards.
 
@@ -23,7 +22,6 @@ I will be migrating to the [Quilt](https://quiltmc.org/) modding framework once 
 
 ## FAQ
 
----
 - Port to Forge?
     - Not on my own time. If someone wants to port it, I encourage them to do so.
 
@@ -55,7 +53,6 @@ I will be migrating to the [Quilt](https://quiltmc.org/) modding framework once 
 
 ## License
 
----
 This mod is licensed under the [GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/).  
 See [LICENSE.md](LICENSE.md)
 
@@ -71,7 +68,7 @@ See [LICENSE.md](LICENSE.md)
 
 ## Contributing
 
----
 Please do!  
+
 This is a mod I've made primarily for myself and my modpacks, but if you have something you'd like to contribute, feel free to open a pull request.  
 Please see [Contribution Guidelines](CONTRIBUTING.md) for more information.

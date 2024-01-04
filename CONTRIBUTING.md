@@ -1,11 +1,11 @@
 # Contributing
 
----
-
 ## Contributor License Agreement (CLA)
 By submitting a pull request, you agree that:
 - Your contributions will be liecensed irrecoverably under the [GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/).  
 - Your contributions are free from any patents or other intellectual property restrictions that would prevent their use under the license above.
+
+---
 
 ## How to Contribute
 1. Clone the repository
@@ -58,6 +58,7 @@ Only include one feature per pull request.
 The pull request should include a brief description of what the feature is and why it's being added, as well as links to any related issues.
 
 Please don't create a pull request with multiple unrelated features.
+
 
 #### What's an unrelated feature?  
 If you are adding an item called "ExtremeBucket", the changes that are expected are:
