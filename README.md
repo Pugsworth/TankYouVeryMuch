@@ -1,4 +1,4 @@
-<div style="text-align: center">
+<div align="center">
 
 <img src="src/main/resources/assets/tankyouverymuch/icon.png" width="128">
 
