@@ -1,0 +1,54 @@
+{
+	"schemaVersion": 1,
+	"id": "tankyouverymuch",
+	"version": "${mod_version}",
+	"name": "Tank You Very Much",
+	"description": "A stackable fluid tank mod for Fabric/Quilt.",
+	"authors": [
+		"Uriah"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/Pugsworth/TankYouVeryMuch"
+	},
+	"license": "GPL-3.0",
+	"icon": "assets/tankyouverymuch/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			{
+				"value": "uriah.tankyouverymuch.TankYouVeryMuch",
+				"adapter": "kotlin"
+			}
+		],
+		"client": [
+			{
+				"value": "uriah.tankyouverymuch.TankYouVeryMuchClient",
+				"adapter": "kotlin"
+			}
+		],
+		"fabric-datagen": [
+			{
+				"value": "uriah.tankyouverymuch.TankYouVeryMuchDataGenerator",
+				"adapter": "kotlin"
+			}
+		]
+	},
+	"mixins": [
+		"tankyouverymuch.mixins.json",
+		{
+			"config": "tankyouverymuch.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.2",
+		"minecraft": "~1.19.2",
+		"java": ">=17",
+		"fabric-api": "*",
+		"fabric-language-kotlin": ">=1.9.21"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
