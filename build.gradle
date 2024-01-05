@@ -88,6 +88,17 @@ jar {
 	}
 }
 
+tasks.register("badges_meta") {
+	file("${project.rootDir}/versions.meta").text = """
+		{
+			"fabric_version": "${project.fabric_version}",
+			"loader_version": "${project.loader_version}",
+			"minecraft_version": "${project.minecraft_version}",
+			"mod_version": "${project.mod_version}"
+		}
+	""".stripIndent().strip();
+}
+
 // configure the maven publication
 publishing {
 	publications {
