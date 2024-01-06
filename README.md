@@ -1,14 +1,72 @@
 <div align="center">
 
-<img src="src/main/resources/assets/tankyouverymuch/icon.png" width="128">
+<style type="text/css">
+.flex {
+    display: flex;
+    justify-content: center;
+}
+.row {
+    flex-flow: row;
+    flex-direction: row;
+}
+.space {
+    width: 0.5em;
+}
+.mb-1 {
+    margin-bottom: 1em;
+}
+</style>
 
-# Tank You Very Much
+<!-- Logo -->
+<div class="logo">
+    <img src="src/main/resources/assets/tankyouverymuch/icon.png" width="128">
+</div>
+<span class="title">
+    <H1>Tank You Very Much</H1>
+</span>
+<hr/>
+
+<div class="badges">
+
+<div class="flex row mb-1">
+    <!-- Build Status -->
+    <img alt="GitHub Actions Workflow Status" src="https://img.shields.io/github/actions/workflow/status/Pugsworth/TankYouVeryMuch/build.yml?style=flat-square">
+    <span class="space"></span>
+    <!-- License -->
+    <img alt="GitHub License" src="https://img.shields.io/github/license/Pugsworth/TankYouVeryMuch?style=flat-square&color=yellow">
+</div>
+
+<hr/>
+
+<div>
 
 <!-- todo: replace 494721 with your CurseForge project id -->
-[![Release](https://img.shields.io/github/v/release/axieum/fabric-example-mod?style=for-the-badge&include_prereleases&sort=semver)][releases]
-[![Available For](https://img.shields.io/badge/dynamic/json?label=Available%20For&style=for-the-badge&color=34aa2f&query=gameVersionLatestFiles%5B0%5D.gameVersion&url=https%3A%2F%2Faddons-ecs.forgesvc.net%2Fapi%2Fv2%2Faddon%2F494721)][curseforge]
-[![Downloads](https://img.shields.io/badge/dynamic/json?label=Downloads&style=for-the-badge&color=f16436&query=downloadCount&url=https%3A%2F%2Faddons-ecs.forgesvc.net%2Fapi%2Fv2%2Faddon%2F494721)][curseforge:files]-
 
+<div class="mb-1">
+<div>
+<!-- Mod Version -->
+<img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FPugsworth%2FTankYouVeryMuch%2Fmaster%2Fversions.meta&query=mod_version&style=for-the-badge&label=Version">
+</div>
+
+<div>
+<!-- GitHub Release -->
+<img alt="GitHub Release" src="https://img.shields.io/github/v/release/Pugsworth/TankYouVeryMuch?sort=semver&display_name=release&style=for-the-badge">
+</div>
+</div>
+
+<div>
+<!-- Minecraft Version -->
+<img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FPugsworth%2FTankYouVeryMuch%2Fmaster%2Fversions.meta&query=minecraft_version&style=flat-square&label=Minecraft">
+<span class="space"></span>
+<!-- Fabric Version -->
+<img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FPugsworth%2FTankYouVeryMuch%2Fmaster%2Fversions.meta&query=fabric_version&style=flat-square&label=%20Fabric">
+<span class="space"></span>
+<!-- Fabric Loader Version -->
+<img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FPugsworth%2FTankYouVeryMuch%2Fmaster%2Fversions.meta&query=loader_version&style=flat-square&label=Fabric%20Loader">
+
+</div>
+</div>
+</div>
 </div>
 
 ---
@@ -72,3 +130,9 @@ Please do!
 
 This is a mod I've made primarily for myself and my modpacks, but if you have something you'd like to contribute, feel free to open a pull request.  
 Please see [Contribution Guidelines](CONTRIBUTING.md) for more information.
+
+---
+
+---
+
+If you like what I do or want to donate to my work, feel free to [Buy me a Coffee](https://www.buymeacoffee.com/pugsworth) ☕
